@@ -1,13 +1,10 @@
 module.exports = {
-  extends: ['react-app'],
-  plugins: ['react'],
+  extends: [
+    'react-app',
+    'react-app/jest'
+  ],
   rules: {
-    'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
-  },
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
+    'no-unused-vars': 'warn'
+  }
 }; 

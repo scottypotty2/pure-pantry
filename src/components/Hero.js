@@ -19,7 +19,7 @@ const Hero = () => {
               Welcome to Pure Pantry
             </h1>
             <p className="text-xl lg:text-2xl font-serif text-gray-700 mb-8 leading-relaxed">
-              Handcrafted with love. 
+              Handcrafted with love by your Connecticut baker. 
               Fresh-baked breads, sweet treats, and homemade goodies 
               made with traditional recipes and the finest ingredients.
             </p>
@@ -70,7 +70,7 @@ const Hero = () => {
               </svg>
             </div>
             <h3 className="text-xl font-serif font-bold text-warm-brown mb-2">Fresh Daily</h3>
-            <p className="text-gray-600">Baked fresh with love and care</p>
+            <p className="text-gray-600">Baked fresh every morning with love and care</p>
           </div>
           
           <div className="text-center">
@@ -80,7 +80,7 @@ const Hero = () => {
               </svg>
             </div>
             <h3 className="text-xl font-serif font-bold text-warm-brown mb-2">Made with Love</h3>
-            <p className="text-gray-600">Traditional recipes</p>
+            <p className="text-gray-600">Traditional recipes passed down through generations</p>
           </div>
           
           <div className="text-center">

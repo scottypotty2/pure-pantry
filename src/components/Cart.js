@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Cart = ({ isOpen, setIsOpen, cart, removeFromCart, updateQuantity, getTotalPrice }) => {
   if (!isOpen) return null;
 

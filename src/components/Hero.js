@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Hero = () => {
   return (
     <section className="relative bg-gradient-to-br from-cottage-cream via-honey-yellow to-rose-pink min-h-screen flex items-center">

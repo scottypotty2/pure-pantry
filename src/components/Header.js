@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const Header = ({ activeSection, setActiveSection, cartItemCount, setIsCartOpen }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
